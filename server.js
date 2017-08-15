@@ -16,10 +16,10 @@ app.get('/article-one',function(req,res){
     res.send('Article-one is served');
 });
 app.get('/article-two',function(req,res){
-     res.sendFile(path.join(__dirname,'ui', 'article-two.html'));
+     res.sendFile(path.join(__dirname, 'article-two.html'));
 });
 app.get('/article-three',function(req,res){
-     res.sendFile(path.join(__dirname,'ui', 'article-three.html'));
+     res.sendFile(path.join(__dirname, 'article-three.html'));
 });
 
 app.get('/ui/madi.png', function (req, res) {
