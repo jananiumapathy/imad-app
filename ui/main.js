@@ -1,7 +1,7 @@
 console.log('Loaded!');
 var element=document.getElementById('main-text');
 element.innerHTML = 'New Value';
-var img=document.getElementById('madi');
+var img=document.getImgById('madi');
 var marginLeft=0;
 function moveRight(){
 var marginLeft = marginLeft + 5;
