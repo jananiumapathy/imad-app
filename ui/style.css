@@ -19,4 +19,9 @@ body {
 .img-medium {
     height: 200px;
 }
-
+.name {
+             color:red;
+             padding-left: 20px;
+             padding-right: 20px;
+             font-family: sans-serif;
+         }
